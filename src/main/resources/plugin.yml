@@ -1,0 +1,9 @@
+name: HuntedDoubleChat
+version: ${project.version}
+main: me.lumboc.hunteddoublechat.HuntedDoubleChat
+api-version: 1.16
+authors: [ Lumboc ]
+description: Creates 2 chats for the Hunted Minecraft Series
+commands:
+  hdctoggle:
+    description: Toggle HDC
