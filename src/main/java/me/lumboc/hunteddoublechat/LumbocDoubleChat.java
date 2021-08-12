@@ -26,7 +26,7 @@ public final class LumbocDoubleChat extends JavaPlugin {
     @Override
     public void onDisable() {
         // Plugin shutdown logic
-        System.out.println("Hunted Double Chat - shutting down!");
+        System.out.println("Lumboc Double Chat - shutting down!");
     }
 
     public static LumbocDoubleChat getInstance() {
