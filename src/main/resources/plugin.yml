@@ -1,0 +1,10 @@
+name: DoubleChat
+version: ${project.version}
+main: com.lumboc.doublechat.DoubleChat
+api-version: 1.16
+authors: [ Lumboc ]
+description: Creates a single MC chat for two different teams.
+website: https://www.youtube.com/c/Lumboc
+commands:
+  dctoggle:
+    description: Toggle DoubleChat
