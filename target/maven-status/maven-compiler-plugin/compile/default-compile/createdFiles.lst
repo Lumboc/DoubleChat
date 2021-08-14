@@ -1,0 +1,3 @@
+com\lumboc\doublechat\commands\Toggle.class
+com\lumboc\doublechat\DoubleChat.class
+com\lumboc\doublechat\events\DoubleChatEvent.class
