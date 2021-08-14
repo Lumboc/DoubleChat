@@ -10,9 +10,9 @@ public class Toggle implements CommandExecutor {
 
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
-        if(sender.hasPermission("hdc.toggle")) {
+        if(sender.hasPermission("dc.toggle")) {
             DoubleChat.dctoggle = !DoubleChat.dctoggle;
-            sender.sendMessage(ChatColor.GREEN + "HDC has been toggled to " + DoubleChat.dctoggle + "!");
+            sender.sendMessage(ChatColor.GREEN + "Double Chat has been toggled to " + DoubleChat.dctoggle + "!");
         } else {
             sender.sendMessage(ChatColor.RED + "You do not have permission to perform this command!");
         }
